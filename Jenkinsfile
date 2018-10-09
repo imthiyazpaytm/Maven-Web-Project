@@ -2,7 +2,7 @@
 
 node{
     stage('Checkout SCM'){
-        checkout 'SCM'
+        'checkout SCM'
     }
     stage('Building and deploying artifact'){
         bat 'mvn clean deploy'
